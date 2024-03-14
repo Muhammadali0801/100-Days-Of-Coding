@@ -1,5 +1,5 @@
 "use strict";
-// DAY 2 Challenge;
+// DAY 2 CHALLENGE;
 // QUESTION 4: Famouse Qoute: Find a qoute from a famouse person you admire. Print the qoute and the name of its author.;
 console.log('Steve Jobs Once Said,"Your time is limited, so dont waste it living someone elses life. Dont be trapped by dogma - which is living with the results of other peoples thinking"');
 // QUESTION 5: Reapeat Exercise 4, But this time to store the famouse person's name in a variable called famouse_person.Then compose your message and store it in a new variable called message.Print your message;

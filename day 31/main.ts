@@ -1,14 +1,14 @@
-       // DAY 31 CHALLENGE;
+// DAY 31 CHALLENGE;
 
 //Question 91: Create an array of your three favorite fruits and add a new fruit to the end of the array.
-  
+
 // Defines an array with three favorite fruits
 
-let favoriteFruits: string[] = ["Apple","Banana","Cherry"];
+let favoriteFruits: string[] = ["Apple", "Banana", "Cherry"];
 
 favoriteFruits.push("Mango"); // Adds "Mango" to the end of the array
 
-console.log(favoriteFruits);  // Outputs: ['Apple', 'Banana', 'Cherry', 'Mango']
+console.log(favoriteFruits); // Outputs: ['Apple', 'Banana', 'Cherry', 'Mango']
 // This line adds a new fruit to our list of favorites.
 
 //Question 92: Write a function to remove the last element from an array and return the removed element.
@@ -16,7 +16,7 @@ console.log(favoriteFruits);  // Outputs: ['Apple', 'Banana', 'Cherry', 'Mango']
 // This function removes the last element from an array and returns it
 
 function removeLastElement<T>(arr: T[]): T | undefined {
-    return arr.pop(); // Removes and returns the last element of the array
+  return arr.pop(); // Removes and returns the last element of the array
 }
 // Example: Removing the last fruit from the array
 
@@ -29,9 +29,9 @@ console.log(fruits); // Outputs: ['Apple', 'Banana']
 
 // This function finds "Banana" in the fruits array and replaces it with "Mango"
 
-function replaceBananaWithMango(fruits:string[]): void {
-    const index = fruits.indexOf("Banana");  // Finds the index of "Banana"
-    if (index !== -1) fruits[index] = "Mango"; // Replaces "Banana" with "Mango" if found
+function replaceBananaWithMango(fruits: string[]): void {
+  const index = fruits.indexOf("Banana"); // Finds the index of "Banana"
+  if (index !== -1) fruits[index] = "Mango"; // Replaces "Banana" with "Mango" if found
 }
 
 // Example: Replacing "Banana" in the array

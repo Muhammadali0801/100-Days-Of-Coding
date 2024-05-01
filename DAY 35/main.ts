@@ -1,12 +1,10 @@
         // DAY 35 CHALLENGE;
-
 //Question 103: Write a function that returns a random boolean value, true or false.
 
 // This function returns a random boolean value
 function getRandomBoolean(): boolean {
     return Math.random() > 0.5; // Returns true if the random number is greater than 0.5
 }
-
 console.log(getRandomBoolean()); // Outputs either true or false randomly
 // By comparing a random number to 0.5, we effectively get a true or false value randomly.
 
@@ -29,7 +27,6 @@ function rollDice(): number {
     return Math.floor(Math.random() * 6) + 1; // Calculates a random integer from 1 to 6
 
 }
-
 console.log(rollDice()); // Outputs a random number between 1 and 6
 // Here, we mimic the action of rolling a dice and getting a result.
 

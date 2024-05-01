@@ -1,7 +1,7 @@
          // DAY 36 CHALLENGE;
 
 //Question 106: Determine if a given year is a leap year using comparison operators.
-         
+
        
 // This function checks if a year is a leap year
 function isLeapYear(year: number): boolean {

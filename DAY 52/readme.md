@@ -1,3 +1,5 @@
+   //DAY 52 CHALLENGE
+
 Day 52 of the 100 Days of Coding Challenge
 Today's dive into JavaScript promises to be enlightening! Our focus: "An Introduction to JavaScript."
 
